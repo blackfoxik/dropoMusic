@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AE4B3161FDF015D00EB2F9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4B3151FDF015D00EB2F9F /* AppDelegate.swift */; };
+		3AE4B3181FDF015D00EB2F9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4B3171FDF015D00EB2F9F /* ViewController.swift */; };
+		3AE4B31B1FDF015D00EB2F9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE4B3191FDF015D00EB2F9F /* Main.storyboard */; };
+		3AE4B31E1FDF015D00EB2F9F /* dropoMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4B31C1FDF015D00EB2F9F /* dropoMusic.xcdatamodeld */; };
+		3AE4B3201FDF015D00EB2F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE4B31F1FDF015D00EB2F9F /* Assets.xcassets */; };
+		3AE4B3231FDF015D00EB2F9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE4B3211FDF015D00EB2F9F /* LaunchScreen.storyboard */; };
+		3AE4B32E1FDF015E00EB2F9F /* dropoMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4B32D1FDF015E00EB2F9F /* dropoMusicTests.swift */; };
+		3AE4B3391FDF015E00EB2F9F /* dropoMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4B3381FDF015E00EB2F9F /* dropoMusicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AE4B32A1FDF015D00EB2F9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AE4B30A1FDF015D00EB2F9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AE4B3111FDF015D00EB2F9F;
+			remoteInfo = dropoMusic;
+		};
+		3AE4B3351FDF015E00EB2F9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AE4B30A1FDF015D00EB2F9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AE4B3111FDF015D00EB2F9F;
+			remoteInfo = dropoMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AE4B3121FDF015D00EB2F9F /* dropoMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dropoMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE4B3151FDF015D00EB2F9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AE4B3171FDF015D00EB2F9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AE4B31A1FDF015D00EB2F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AE4B31D1FDF015D00EB2F9F /* dropoMusic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dropoMusic.xcdatamodel; sourceTree = "<group>"; };
+		3AE4B31F1FDF015D00EB2F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AE4B3221FDF015D00EB2F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AE4B3241FDF015D00EB2F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE4B3291FDF015D00EB2F9F /* dropoMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dropoMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE4B32D1FDF015E00EB2F9F /* dropoMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropoMusicTests.swift; sourceTree = "<group>"; };
+		3AE4B32F1FDF015E00EB2F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE4B3341FDF015E00EB2F9F /* dropoMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dropoMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE4B3381FDF015E00EB2F9F /* dropoMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropoMusicUITests.swift; sourceTree = "<group>"; };
+		3AE4B33A1FDF015E00EB2F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AE4B30F1FDF015D00EB2F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE4B3261FDF015D00EB2F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE4B3311FDF015E00EB2F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AE4B3091FDF015D00EB2F9F = {
+			isa = PBXGroup;
+			children = (
+				3AE4B3141FDF015D00EB2F9F /* dropoMusic */,
+				3AE4B32C1FDF015E00EB2F9F /* dropoMusicTests */,
+				3AE4B3371FDF015E00EB2F9F /* dropoMusicUITests */,
+				3AE4B3131FDF015D00EB2F9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AE4B3131FDF015D00EB2F9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AE4B3121FDF015D00EB2F9F /* dropoMusic.app */,
+				3AE4B3291FDF015D00EB2F9F /* dropoMusicTests.xctest */,
+				3AE4B3341FDF015E00EB2F9F /* dropoMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AE4B3141FDF015D00EB2F9F /* dropoMusic */ = {
+			isa = PBXGroup;
+			children = (
+				3AE4B3151FDF015D00EB2F9F /* AppDelegate.swift */,
+				3AE4B3171FDF015D00EB2F9F /* ViewController.swift */,
+				3AE4B3191FDF015D00EB2F9F /* Main.storyboard */,
+				3AE4B31F1FDF015D00EB2F9F /* Assets.xcassets */,
+				3AE4B3211FDF015D00EB2F9F /* LaunchScreen.storyboard */,
+				3AE4B3241FDF015D00EB2F9F /* Info.plist */,
+				3AE4B31C1FDF015D00EB2F9F /* dropoMusic.xcdatamodeld */,
+			);
+			path = dropoMusic;
+			sourceTree = "<group>";
+		};
+		3AE4B32C1FDF015E00EB2F9F /* dropoMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AE4B32D1FDF015E00EB2F9F /* dropoMusicTests.swift */,
+				3AE4B32F1FDF015E00EB2F9F /* Info.plist */,
+			);
+			path = dropoMusicTests;
+			sourceTree = "<group>";
+		};
+		3AE4B3371FDF015E00EB2F9F /* dropoMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AE4B3381FDF015E00EB2F9F /* dropoMusicUITests.swift */,
+				3AE4B33A1FDF015E00EB2F9F /* Info.plist */,
+			);
+			path = dropoMusicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AE4B3111FDF015D00EB2F9F /* dropoMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE4B33D1FDF015E00EB2F9F /* Build configuration list for PBXNativeTarget "dropoMusic" */;
+			buildPhases = (
+				3AE4B30E1FDF015D00EB2F9F /* Sources */,
+				3AE4B30F1FDF015D00EB2F9F /* Frameworks */,
+				3AE4B3101FDF015D00EB2F9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dropoMusic;
+			productName = dropoMusic;
+			productReference = 3AE4B3121FDF015D00EB2F9F /* dropoMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AE4B3281FDF015D00EB2F9F /* dropoMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE4B3401FDF015E00EB2F9F /* Build configuration list for PBXNativeTarget "dropoMusicTests" */;
+			buildPhases = (
+				3AE4B3251FDF015D00EB2F9F /* Sources */,
+				3AE4B3261FDF015D00EB2F9F /* Frameworks */,
+				3AE4B3271FDF015D00EB2F9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AE4B32B1FDF015D00EB2F9F /* PBXTargetDependency */,
+			);
+			name = dropoMusicTests;
+			productName = dropoMusicTests;
+			productReference = 3AE4B3291FDF015D00EB2F9F /* dropoMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AE4B3331FDF015E00EB2F9F /* dropoMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE4B3431FDF015E00EB2F9F /* Build configuration list for PBXNativeTarget "dropoMusicUITests" */;
+			buildPhases = (
+				3AE4B3301FDF015E00EB2F9F /* Sources */,
+				3AE4B3311FDF015E00EB2F9F /* Frameworks */,
+				3AE4B3321FDF015E00EB2F9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AE4B3361FDF015E00EB2F9F /* PBXTargetDependency */,
+			);
+			name = dropoMusicUITests;
+			productName = dropoMusicUITests;
+			productReference = 3AE4B3341FDF015E00EB2F9F /* dropoMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AE4B30A1FDF015D00EB2F9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Anton;
+				TargetAttributes = {
+					3AE4B3111FDF015D00EB2F9F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					3AE4B3281FDF015D00EB2F9F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3AE4B3111FDF015D00EB2F9F;
+					};
+					3AE4B3331FDF015E00EB2F9F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3AE4B3111FDF015D00EB2F9F;
+					};
+				};
+			};
+			buildConfigurationList = 3AE4B30D1FDF015D00EB2F9F /* Build configuration list for PBXProject "dropoMusic" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AE4B3091FDF015D00EB2F9F;
+			productRefGroup = 3AE4B3131FDF015D00EB2F9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AE4B3111FDF015D00EB2F9F /* dropoMusic */,
+				3AE4B3281FDF015D00EB2F9F /* dropoMusicTests */,
+				3AE4B3331FDF015E00EB2F9F /* dropoMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AE4B3101FDF015D00EB2F9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE4B3231FDF015D00EB2F9F /* LaunchScreen.storyboard in Resources */,
+				3AE4B3201FDF015D00EB2F9F /* Assets.xcassets in Resources */,
+				3AE4B31B1FDF015D00EB2F9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE4B3271FDF015D00EB2F9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE4B3321FDF015E00EB2F9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AE4B30E1FDF015D00EB2F9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE4B3181FDF015D00EB2F9F /* ViewController.swift in Sources */,
+				3AE4B31E1FDF015D00EB2F9F /* dropoMusic.xcdatamodeld in Sources */,
+				3AE4B3161FDF015D00EB2F9F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE4B3251FDF015D00EB2F9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE4B32E1FDF015E00EB2F9F /* dropoMusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE4B3301FDF015E00EB2F9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE4B3391FDF015E00EB2F9F /* dropoMusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AE4B32B1FDF015D00EB2F9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AE4B3111FDF015D00EB2F9F /* dropoMusic */;
+			targetProxy = 3AE4B32A1FDF015D00EB2F9F /* PBXContainerItemProxy */;
+		};
+		3AE4B3361FDF015E00EB2F9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AE4B3111FDF015D00EB2F9F /* dropoMusic */;
+			targetProxy = 3AE4B3351FDF015E00EB2F9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AE4B3191FDF015D00EB2F9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AE4B31A1FDF015D00EB2F9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AE4B3211FDF015D00EB2F9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AE4B3221FDF015D00EB2F9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AE4B33B1FDF015E00EB2F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AE4B33C1FDF015E00EB2F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AE4B33E1FDF015E00EB2F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FVX44VHUU;
+				INFOPLIST_FILE = dropoMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lisitsyn.anton.a.dropoMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AE4B33F1FDF015E00EB2F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FVX44VHUU;
+				INFOPLIST_FILE = dropoMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lisitsyn.anton.a.dropoMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AE4B3411FDF015E00EB2F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FVX44VHUU;
+				INFOPLIST_FILE = dropoMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lisitsyn.anton.a.dropoMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dropoMusic.app/dropoMusic";
+			};
+			name = Debug;
+		};
+		3AE4B3421FDF015E00EB2F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FVX44VHUU;
+				INFOPLIST_FILE = dropoMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lisitsyn.anton.a.dropoMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dropoMusic.app/dropoMusic";
+			};
+			name = Release;
+		};
+		3AE4B3441FDF015E00EB2F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FVX44VHUU;
+				INFOPLIST_FILE = dropoMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lisitsyn.anton.a.dropoMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dropoMusic;
+			};
+			name = Debug;
+		};
+		3AE4B3451FDF015E00EB2F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FVX44VHUU;
+				INFOPLIST_FILE = dropoMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lisitsyn.anton.a.dropoMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dropoMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AE4B30D1FDF015D00EB2F9F /* Build configuration list for PBXProject "dropoMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE4B33B1FDF015E00EB2F9F /* Debug */,
+				3AE4B33C1FDF015E00EB2F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AE4B33D1FDF015E00EB2F9F /* Build configuration list for PBXNativeTarget "dropoMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE4B33E1FDF015E00EB2F9F /* Debug */,
+				3AE4B33F1FDF015E00EB2F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AE4B3401FDF015E00EB2F9F /* Build configuration list for PBXNativeTarget "dropoMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE4B3411FDF015E00EB2F9F /* Debug */,
+				3AE4B3421FDF015E00EB2F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AE4B3431FDF015E00EB2F9F /* Build configuration list for PBXNativeTarget "dropoMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE4B3441FDF015E00EB2F9F /* Debug */,
+				3AE4B3451FDF015E00EB2F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3AE4B31C1FDF015D00EB2F9F /* dropoMusic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3AE4B31D1FDF015D00EB2F9F /* dropoMusic.xcdatamodel */,
+			);
+			currentVersion = 3AE4B31D1FDF015D00EB2F9F /* dropoMusic.xcdatamodel */;
+			path = dropoMusic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3AE4B30A1FDF015D00EB2F9F /* Project object */;
+}
