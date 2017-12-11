@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nVX-b1-ZGA">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Songs-->
+        <scene sceneID="4Q7-7B-RPU">
+            <objects>
+                <viewController id="nVX-b1-ZGA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fTM-cj-W4g">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xQS-a7-bcS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Songs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SmF-o5-yeI">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xQS-a7-bcS" firstAttribute="leading" secondItem="y8G-My-cat" secondAttribute="leading" id="B8K-hn-oxj"/>
+                            <constraint firstItem="xQS-a7-bcS" firstAttribute="top" secondItem="fTM-cj-W4g" secondAttribute="top" id="Tgv-2L-pfk"/>
+                            <constraint firstAttribute="bottom" secondItem="xQS-a7-bcS" secondAttribute="bottom" id="jVI-hZ-RXI"/>
+                            <constraint firstItem="y8G-My-cat" firstAttribute="trailing" secondItem="xQS-a7-bcS" secondAttribute="trailing" id="zWa-1D-c23"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="y8G-My-cat"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Songs" id="eLg-JY-G66"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EAS-ZL-3JC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="196" y="195"/>
+        </scene>
+    </scenes>
+</document>
