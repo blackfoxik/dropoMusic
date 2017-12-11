@@ -99,13 +99,9 @@
 		3AE4B3141FDF015D00EB2F9F /* dropoMusic */ = {
 			isa = PBXGroup;
 			children = (
-				3AE4B3151FDF015D00EB2F9F /* AppDelegate.swift */,
+				3AE4B3461FDF0F3500EB2F9F /* Supporting Files */,
 				3AE4B3171FDF015D00EB2F9F /* ViewController.swift */,
 				3AE4B3191FDF015D00EB2F9F /* Main.storyboard */,
-				3AE4B31F1FDF015D00EB2F9F /* Assets.xcassets */,
-				3AE4B3211FDF015D00EB2F9F /* LaunchScreen.storyboard */,
-				3AE4B3241FDF015D00EB2F9F /* Info.plist */,
-				3AE4B31C1FDF015D00EB2F9F /* dropoMusic.xcdatamodeld */,
 			);
 			path = dropoMusic;
 			sourceTree = "<group>";
@@ -126,6 +122,18 @@
 				3AE4B33A1FDF015E00EB2F9F /* Info.plist */,
 			);
 			path = dropoMusicUITests;
+			sourceTree = "<group>";
+		};
+		3AE4B3461FDF0F3500EB2F9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AE4B3151FDF015D00EB2F9F /* AppDelegate.swift */,
+				3AE4B31F1FDF015D00EB2F9F /* Assets.xcassets */,
+				3AE4B3211FDF015D00EB2F9F /* LaunchScreen.storyboard */,
+				3AE4B3241FDF015D00EB2F9F /* Info.plist */,
+				3AE4B31C1FDF015D00EB2F9F /* dropoMusic.xcdatamodeld */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -432,7 +440,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6FVX44VHUU;
-				INFOPLIST_FILE = dropoMusic/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/dropoMusic/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lisitsyn.anton.a.dropoMusic;
@@ -448,7 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6FVX44VHUU;
-				INFOPLIST_FILE = dropoMusic/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/dropoMusic/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lisitsyn.anton.a.dropoMusic;
