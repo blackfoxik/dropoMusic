@@ -13,7 +13,7 @@
         <!--Source-->
         <scene sceneID="cOs-r1-Lrw">
             <objects>
-                <viewController id="HAQ-hU-SkL" sceneMemberID="viewController">
+                <viewController id="HAQ-hU-SkL" customClass="SourceViewController" customModule="dropoMusic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bVg-pC-18A">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,12 +21,14 @@
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cCK-5R-S3O">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Source" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jo4-EJ-9bb">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Lq-t7-JRN">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                        <state key="normal" title="Log in"/>
+                                        <connections>
+                                            <action selector="logInButtonPressed:" destination="gAt-T7-NG8" eventType="touchUpInside" id="12s-Yl-kTq"/>
+                                            <action selector="logInButtonPressed:" destination="HAQ-hU-SkL" eventType="touchUpInside" id="w2d-g7-9g5"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -43,6 +45,7 @@
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J8H-EH-4SB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="gAt-T7-NG8" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="263" y="166"/>
         </scene>

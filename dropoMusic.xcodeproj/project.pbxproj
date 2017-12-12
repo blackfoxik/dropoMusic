@@ -18,6 +18,7 @@
 		3AE4B3481FDF188E00EB2F9F /* Source.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE4B3471FDF188E00EB2F9F /* Source.storyboard */; };
 		3AE4B34A1FDF18AD00EB2F9F /* Songs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE4B3491FDF18AD00EB2F9F /* Songs.storyboard */; };
 		3AE4B34C1FDFD0D800EB2F9F /* DropBoxSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4B34B1FDFD0D800EB2F9F /* DropBoxSettings.swift */; };
+		3AE4B34E1FDFDD1B00EB2F9F /* SourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4B34D1FDFDD1B00EB2F9F /* SourceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		3AE4B3471FDF188E00EB2F9F /* Source.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Source.storyboard; sourceTree = "<group>"; };
 		3AE4B3491FDF18AD00EB2F9F /* Songs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Songs.storyboard; sourceTree = "<group>"; };
 		3AE4B34B1FDFD0D800EB2F9F /* DropBoxSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropBoxSettings.swift; sourceTree = "<group>"; };
+		3AE4B34D1FDFDD1B00EB2F9F /* SourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewController.swift; sourceTree = "<group>"; };
 		C5856B837A7D45497AA088DC /* Pods-dropoMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dropoMusic.release.xcconfig"; path = "Pods/Target Support Files/Pods-dropoMusic/Pods-dropoMusic.release.xcconfig"; sourceTree = "<group>"; };
 		EAAEC6ACD52458742A4755FF /* Pods-dropoMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dropoMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dropoMusic/Pods-dropoMusic.debug.xcconfig"; sourceTree = "<group>"; };
 		F261765C391F6D7F6AB3D5CD /* Pods_dropoMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dropoMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +115,7 @@
 				3AE4B3461FDF0F3500EB2F9F /* Supporting Files */,
 				3AE4B3191FDF015D00EB2F9F /* Main.storyboard */,
 				3AE4B3471FDF188E00EB2F9F /* Source.storyboard */,
+				3AE4B34D1FDFDD1B00EB2F9F /* SourceViewController.swift */,
 				3AE4B3491FDF18AD00EB2F9F /* Songs.storyboard */,
 			);
 			path = dropoMusic;
@@ -362,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AE4B31E1FDF015D00EB2F9F /* dropoMusic.xcdatamodeld in Sources */,
+				3AE4B34E1FDFDD1B00EB2F9F /* SourceViewController.swift in Sources */,
 				3AE4B34C1FDFD0D800EB2F9F /* DropBoxSettings.swift in Sources */,
 				3AE4B3161FDF015D00EB2F9F /* AppDelegate.swift in Sources */,
 			);
