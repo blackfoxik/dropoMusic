@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1909665564E082D48C42FA25 /* Pods_dropoMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F261765C391F6D7F6AB3D5CD /* Pods_dropoMusic.framework */; };
 		3AE4B3161FDF015D00EB2F9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4B3151FDF015D00EB2F9F /* AppDelegate.swift */; };
 		3AE4B31B1FDF015D00EB2F9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE4B3191FDF015D00EB2F9F /* Main.storyboard */; };
 		3AE4B31E1FDF015D00EB2F9F /* dropoMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4B31C1FDF015D00EB2F9F /* dropoMusic.xcdatamodeld */; };
@@ -51,6 +52,9 @@
 		3AE4B33A1FDF015E00EB2F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AE4B3471FDF188E00EB2F9F /* Source.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Source.storyboard; sourceTree = "<group>"; };
 		3AE4B3491FDF18AD00EB2F9F /* Songs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Songs.storyboard; sourceTree = "<group>"; };
+		C5856B837A7D45497AA088DC /* Pods-dropoMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dropoMusic.release.xcconfig"; path = "Pods/Target Support Files/Pods-dropoMusic/Pods-dropoMusic.release.xcconfig"; sourceTree = "<group>"; };
+		EAAEC6ACD52458742A4755FF /* Pods-dropoMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dropoMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dropoMusic/Pods-dropoMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		F261765C391F6D7F6AB3D5CD /* Pods_dropoMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dropoMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1909665564E082D48C42FA25 /* Pods_dropoMusic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				3AE4B32C1FDF015E00EB2F9F /* dropoMusicTests */,
 				3AE4B3371FDF015E00EB2F9F /* dropoMusicUITests */,
 				3AE4B3131FDF015D00EB2F9F /* Products */,
+				86447154A8D5846CA65D873F /* Pods */,
+				B6AF64E98FCB789B494CAEF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +146,23 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		86447154A8D5846CA65D873F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAAEC6ACD52458742A4755FF /* Pods-dropoMusic.debug.xcconfig */,
+				C5856B837A7D45497AA088DC /* Pods-dropoMusic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6AF64E98FCB789B494CAEF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F261765C391F6D7F6AB3D5CD /* Pods_dropoMusic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AE4B33D1FDF015E00EB2F9F /* Build configuration list for PBXNativeTarget "dropoMusic" */;
 			buildPhases = (
+				70137EB177F0ADF5A5FBF7A0 /* [CP] Check Pods Manifest.lock */,
 				3AE4B30E1FDF015D00EB2F9F /* Sources */,
 				3AE4B30F1FDF015D00EB2F9F /* Frameworks */,
 				3AE4B3101FDF015D00EB2F9F /* Resources */,
+				2F74E32B417160F8A5A08903 /* [CP] Embed Pods Frameworks */,
+				DB4CECA4420A58ECC88A643F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,6 +296,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F74E32B417160F8A5A08903 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-dropoMusic/Pods-dropoMusic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyDropbox/SwiftyDropbox.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyDropbox.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dropoMusic/Pods-dropoMusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70137EB177F0ADF5A5FBF7A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dropoMusic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB4CECA4420A58ECC88A643F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dropoMusic/Pods-dropoMusic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3AE4B30E1FDF015D00EB2F9F /* Sources */ = {
@@ -440,6 +523,7 @@
 		};
 		3AE4B33E1FDF015E00EB2F9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAAEC6ACD52458742A4755FF /* Pods-dropoMusic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +540,7 @@
 		};
 		3AE4B33F1FDF015E00EB2F9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5856B837A7D45497AA088DC /* Pods-dropoMusic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

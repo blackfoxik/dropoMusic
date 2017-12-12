@@ -1,0 +1,6 @@
+framework module Pods_dropoMusic {
+  umbrella header "Pods-dropoMusic-umbrella.h"
+
+  export *
+  module * { export * }
+}
