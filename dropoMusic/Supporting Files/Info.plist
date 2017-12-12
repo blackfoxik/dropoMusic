@@ -46,5 +46,16 @@
         <string>dbapi-8-emm</string>
         <string>dbapi-2</string>
     </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>db-xvuh5rst0bsm4e2</string>
+                </array>
+                <key>CFBundleURLName</key>
+                <string></string>
+            </dict>
+        </array>
 </dict>
 </plist>
